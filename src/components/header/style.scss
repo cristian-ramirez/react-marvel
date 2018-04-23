@@ -1,0 +1,29 @@
+.header {
+  background-color: #f0141e;
+  display: flex;
+  width: 17rem;
+  height: 4rem;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: -4px;
+  font-size: 4rem;
+}
+
+.sub-header {
+  background-color: #F0141E;
+  color: white;
+  width: 17rem;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.75rem;
+  text-align: center;
+  font-size: 1rem;
+  border-top: 0.02rem solid white;
+  padding-left: 16px;
+}
