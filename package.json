@@ -32,6 +32,17 @@
       "git add"
     ]
   },
+  "homepage": "http://react-marvel.surge.sh/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristian-ramirez/react-marvel.git"
+  },
+  "contributors": [
+    {
+      "name": "Cristian Ramírez",
+      "email": "ramireze4@gmail.com"
+    }
+  ],
   "devDependencies": {
     "babel-eslint": "^8.2.3",
     "babel-plugin-transform-async-to-generator": "^6.24.1",
