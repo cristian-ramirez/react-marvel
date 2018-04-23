@@ -6,11 +6,11 @@ import './header/style.css';
 
 const TopBar = () => (
   <Container block="true">
-    <Image circular src={groot} verticalAlign="middle" size="medium" />
+    <Image circular src={groot} verticalAlign="middle" size="small" />
     <Header as="h1" dividing="true">
-      <span className="header">Marvel</span>
+      <span className="header-logo">Marvel</span>
       <Header.Subheader>
-        <span className="sub-header">React</span>
+        <span className="sub-header-logo">React Redux</span>
       </Header.Subheader>
     </Header>
   </Container>
