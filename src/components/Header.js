@@ -5,7 +5,7 @@ import groot from './header/groot.svg';
 import './header/style.css';
 
 const TopBar = () => (
-  <Container block>
+  <Container>
     <Image circular src={groot} verticalAlign="middle" size="small" />
     <Header as="h1" dividing>
       <span className="header-logo">Marvel</span>
