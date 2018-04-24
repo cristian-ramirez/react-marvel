@@ -7,16 +7,22 @@ class Content extends React.Component {
   }
 
   render() {
-    /* eslint-disable */
     return (
       <div className="twitter-grid">
         <a
-          className="twitter-grid"
-          href="https://twitter.com/Marvel/timelines/784088993076043777"
-        />
+          className="twitter-timeline"
+          data-width="800"
+          data-height="800"
+          data-dnt="true"
+          data-partner="tweetdeck"
+          data-theme="dark"
+          data-link-color="#2B7BB9"
+          href="https://twitter.com/Marvel?ref_src=twsrc%5Etfw"
+        >
+          Tweets by Marvel
+        </a>
       </div>
     );
-    /* eslint-enable */
   }
 }
 
