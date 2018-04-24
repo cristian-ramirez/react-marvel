@@ -5,9 +5,9 @@ import groot from './header/groot.svg';
 import './header/style.css';
 
 const TopBar = () => (
-  <Container block="true">
+  <Container block>
     <Image circular src={groot} verticalAlign="middle" size="small" />
-    <Header as="h1" dividing="true">
+    <Header as="h1" dividing>
       <span className="header-logo">Marvel</span>
       <Header.Subheader>
         <span className="sub-header-logo">React Redux</span>

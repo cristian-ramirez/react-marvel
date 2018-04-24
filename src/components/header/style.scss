@@ -1,29 +1,28 @@
-.header-logo {
-  background-color: #f0141e;
+.header-logo,
+.sub-header-logo {
+  background-color: #F0141E;
   display: flex;
-  width: 17rem;
-  height: 4rem;
   margin: auto;
   justify-content: center;
-  align-items: center;
   text-transform: uppercase;
   font-weight: bold;
+  border: 0.02rem solid white;
+  align-items: center;
+}
+
+.header-logo {
+  width: 17rem;
+  height: 4rem;
   letter-spacing: -4px;
   font-size: 4rem;
+  border-bottom: none;
 }
 
 .sub-header-logo {
-  background-color: #F0141E;
   color: white;
   width: 17rem;
-  display: flex;
-  margin: auto;
-  justify-content: center;
-  text-transform: uppercase;
-  font-weight: bold;
   letter-spacing: 0.75rem;
   text-align: center;
   font-size: 1rem;
-  border-top: 0.02rem solid white;
   padding-left: 16px;
 }
